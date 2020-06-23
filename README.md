@@ -71,7 +71,7 @@ layer of the encoder is
 connected to the last
 layer of the decoder, and
 so on.<br> 
-<img src="unet.png" />
+<img src="unet.PNG" />
 
 Training can be done on CPU
 hardware, although GPU hardware
