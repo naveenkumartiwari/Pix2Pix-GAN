@@ -32,7 +32,9 @@ in JPEG format. Each image is 1,200 pixels
 wide and 600 pixels tall and contains both
 the satellite image on the left and the
 Google maps image on the right.
-<br>
+you can download the dataset from here .
+<a href="http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/maps.tar.gz">Maps Dataset</a>
+<br><br>
 The Model architecture is comprised of two models:<br>
 ● Discriminator
 ● Generator.<br>
@@ -51,7 +53,8 @@ architecture. The model takes a source image (e.g. satellite
 photo) and generates a target image (e.g. Google maps image). It
 does this by first downsampling or encoding the input image
 down to a bottleneck layer, then upsampling or decoding the
-bottleneck representation to the size of the output image.<br>
+bottleneck representation to the size of the output image.<br><br>
+
 The U-Net architecture
 means that
 skip-connections are
