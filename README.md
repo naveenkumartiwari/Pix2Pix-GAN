@@ -36,7 +36,8 @@ you can download the dataset from here .
 <a href="http://efrosgans.eecs.berkeley.edu/pix2pix/datasets/maps.tar.gz">Maps Dataset</a>
 <br><br>
 The Model architecture is comprised of two models:<br>
-● Discriminator
+● Discriminator<br>
+
 ● Generator.<br>
 <br>
 Descriminator -> <br>
@@ -70,6 +71,7 @@ layer of the encoder is
 connected to the last
 layer of the decoder, and
 so on.<br> 
+<img src="unet.png" />
 
 Training can be done on CPU
 hardware, although GPU hardware
